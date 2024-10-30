@@ -1,0 +1,345 @@
+
+@font-face {
+  font-family: "Vollkorn";
+  src: url("../fonts/Vollkorn-VariableFont_wght.ttf") format("truetype");
+  font-weight: 400;
+}
+.screen textarea:focus,
+.screen input:focus {
+  outline: none;
+}
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1440px;
+}
+section {
+  overflow: hidden;
+ background-color: #363636;
+}
+/*Заголовок*/
+h1 {
+  font-size: 8.44rem; /* 80px */
+  font-weight: 400;
+  color: #f1ebe5;
+  margin-bottom: 5rem;
+}
+
+h2 {
+  font-size: 5rem; /* 44px */
+  font-weight: 500;
+  color: #f1ebe5;
+  border-bottom: #fff 2px solid;
+}
+
+h3 {
+  font-size: 2.1875rem; /* 35px */
+  line-height: 1.75rem; /* 28px */
+  font-weight: 16rem;
+  color: #f1ebe5;
+}
+p{
+  margin: 0;
+}
+body {
+  font-size: 1.0256vw;
+  font-family: "Vollkorn";
+  color: white;
+}
+/* Max Font Size */
+@media screen and (min-width: 1440px) {
+  body {
+    font-size: 0.9230769230769232rem;
+  }
+
+/* Container Max Width */
+.container {
+  max-width: 97.5em;
+  margin: 0 auto;
+}}
+.u-d-flex {
+  display: flex;
+}
+.u-d-column {
+  display: flex;
+  flex-direction: column;
+}
+.u-align-center{
+  align-items: center;
+}
+.u-justify-between{
+  justify-content: space-between;
+}
+.u-justify-end{
+  justify-content: flex-end;
+}
+.u-justify-center{
+  justify-content: center;
+}
+.u-position-relative{
+  position: relative;
+}
+.u-position-absolute{
+  position: absolute;
+}
+.u-mt-100{
+  margin-top: 6.375rem;
+}
+.u-mb-80{
+  margin-bottom: 5rem;
+}
+.u-mb-145{
+  margin-bottom: 9.06rem;
+}
+.u-w-50{
+width: 50%;
+}
+.u-w-100{
+  width: 100%;
+  }
+.part-left, .part-right{
+  align-items: center;
+    justify-content: center;
+    display: flex;
+   
+}
+.part-left{
+  border-right: #FFF3C3 1px solid;
+
+}
+.section_navbar{
+  background-color: #5D5B5B;
+  border-bottom:#FFF3C3 1px solid; 
+  height: 8.25rem;}
+
+  .wrapper{
+    height: 8.25rem;
+  }
+  .nav_text{
+    font-size: 2.44rem;
+    font-weight: 400;
+  }
+.section_form{
+  position: relative;
+  background-color: #363636;
+  background-image: url(/images/kirpi2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 3.5rem;
+} 
+.form_background{
+  width: 100%;
+  height: 100%;
+  padding: 3rem 0 3rem 0;
+  background-image: url(/images/ticket.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 3.56rem;
+  margin-left:6.25rem;
+}
+.form_bacground-part_left{
+  padding-left: 7.06rem;
+}
+.form_bacground-part_right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form_description{
+  font-size: 2rem;
+  width: 51rem;
+  margin-bottom: 5.25rem;
+}
+.wrapper_right{
+  display: flex;
+  justify-content: flex-end;
+}
+.form_background-donn_number{
+  font-size: 3.06rem;
+  width: 15.44rem;
+  height: 3.56rem;
+  margin-right: 2.125rem;
+  color: #DACEBD;
+  border: #DACEBD 1px solid;
+  display: flex;
+  justify-content: flex-end;
+}
+.divider{
+  width: 1px;
+  height: 32.375rem;
+  background-color: #DACEBD;
+}
+.big_vertical-text{
+  font-size: 3.78rem;
+  color: #DACEBD;
+  writing-mode: vertical-rl; / * текст установлен слева направо * /
+  text-orientation: upright; / * символы стоят друг под другом * /
+  transform: rotateZ: 180deg;
+}
+.form_img-glass{
+  position: relative;
+  width: 100%;
+  height: 66.5rem;
+  background-image: url(/images/glass.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.fomm_img-bricks{
+  margin-top: 58rem;
+ width: 100%;
+}
+.section_fonts{
+padding: 5.125rem 0;
+}
+.fonts_title{
+  margin-left: 6.56rem;
+  margin-bottom: 5rem;
+  width: 28.5rem;
+}
+  .fonts_frame{
+   background-image: url(/images/two\ frame.png);
+  }
+  .fonts_frame{
+    width: 100%;
+    margin-left: 6.56rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80rem;
+  left: 10rem;
+  }
+  .font_wrapper{
+    margin-left: 8.25rem;
+  }
+  .font_wrapper-left{
+margin-right: 11.06rem;
+  }
+  .font_wrapper-top{
+    column-gap:11.06rem;
+    row-gap: 6.125rem;
+  }
+  .font_symbol_description{
+    font-size: 1.125rem;
+    line-height: 138.6%;
+    width: 13.375rem;
+    justify-content: space-between;
+    align-items: center;
+  }
+.design_fonts-text{
+  font-size:3rem;
+  font-weight: 500;
+  width: 21.875rem;
+  padding:0 2rem 0 3rem;
+  background-color: #DACEBD;
+  color: #4A4747 ;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+justify-content: center;
+  align-items: center;
+}
+.order{
+  order: 2;
+}
+.design_fonts-wrap{
+  margin-bottom: 5.375rem;
+}
+.design_fonts-img_foot-wrapper{
+  background-color: #854541;
+}
+.design_fonts-img_foot{
+  width: 100%;
+}
+.fonts_alphabets{
+  padding-top: 6.5rem;
+  background-color: #854541;
+}
+.container_fonts-alphabets{
+  margin-left: 6.25rem;
+}
+.fonts_alphabets-wrapper{
+  width: 60rem;
+  margin-bottom: 8.44rem;
+}
+
+.fonts_alphabets-title{
+margin-bottom: 3.31rem;
+}
+.fonts_alphabets-description{
+font-size: 2.25rem;
+padding: 3.375rem 1.5rem;
+background-image: url(/images/bodred-dashed.png);
+background-size: contain;
+height: 6.5rem;
+overflow: hidden;
+width: 50rem;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.fonts_alphabets-block_description{
+width: 35.875rem;
+font-size: 1.375rem;
+margin-top: 1.5rem;
+margin-bottom: 4.06rem;
+line-height: 120%;
+}
+.fonts_alphabets-img_wrapper{
+  left: auto;
+  right: 0;
+  top: -8rem;
+  overflow: hidden;
+  z-index: 10;
+}
+.fonts_alphabets-img{
+  width: 57rem;
+}
+.divider_up{
+  background-color: #FFF;
+  height: 2px;
+  width: 53.06rem;
+}
+.divider_up-2{
+  width: 45.5rem;
+}
+.divider_up-3{
+  width: 61.2rem;
+}
+.divider_up-4{
+width: 58rem;}
+.section_outline{
+  padding-top: 4.5rem;
+}
+.section_outline-title{
+  margin-bottom: 5.69rem;
+}
+.section_outline-img_wrapper{
+  margin-bottom: 2.5rem;
+  align-items: center;
+}
+.section_outline-img_background{
+  background-image: url(/images/Rectangle\ 2.png);
+  width: 74rem;
+  background-repeat: no-repeat;
+  height: 18.25rem;
+  margin-top: 2.5rem;
+}
+.section_fonts-ul{
+  display: flex;
+  row-gap: ;
+ 
+}
+.section_fonts-li_description{
+  font-size: 2.81rem;
+  margin-bottom: 1rem;
+}
+.section_outline-img_background{
+  justify-content: center;
+  gap: 10rem;
+}
+.section_outline-background_wrapper{
+  align-items: center;
+  justify-content: center;
+  gap: 1.81rem;
+}
